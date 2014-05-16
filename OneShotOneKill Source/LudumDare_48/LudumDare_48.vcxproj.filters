@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{63c6bad9-88f7-485e-89db-14d51357110b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{ab86a3fe-696c-40fc-8b8a-9c714f0d9ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResourceManagers">
+      <UniqueIdentifier>{f7498a73-0b82-4e0f-bcdc-4ee06374f875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResourceManagers">
+      <UniqueIdentifier>{d1d351eb-acbb-4154-b140-994552939d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{69aa3637-68c4-4142-8748-9f255aa97ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{e549882d-3562-430d-a627-0a6d1b61cef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{3bfc4819-3bbc-4a3d-989a-1051e589991e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{6e82de2b-79b7-4f05-a3e6-cea3bc07f0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{17725f78-d9d5-4fef-9b39-f652d9cd6b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tiles">
+      <UniqueIdentifier>{71d71e80-12b8-4123-9799-c944a9698e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiles">
+      <UniqueIdentifier>{495a95be-6d69-44a2-9104-2a5e4c28c8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Levels">
+      <UniqueIdentifier>{6a0b1242-de94-4cab-ac24-b88a87b08f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemy">
+      <UniqueIdentifier>{038f812c-e185-4942-9a8d-dd9907c14fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{d9acc83d-ae97-4566-8475-983335998f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level">
+      <UniqueIdentifier>{0e474da3-49ea-4a4a-a0c2-5cbb46961de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level">
+      <UniqueIdentifier>{c858dd77-4f70-4a0a-b834-723f7707c047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{20116683-69fa-461e-bbc4-6f37339e5eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{82878c74-8f62-41c1-99f9-2e8e1c87b604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pickup">
+      <UniqueIdentifier>{1fe58fef-85c2-45ee-b851-c0f730989b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pickup">
+      <UniqueIdentifier>{75271f02-6c64-4347-b5c0-31a02e551afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hud">
+      <UniqueIdentifier>{c551f04a-6707-48d8-811c-1c9e050085dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hud">
+      <UniqueIdentifier>{f5247091-93ef-4bd5-a0c0-053549bcff0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hud\FlashbackHud">
+      <UniqueIdentifier>{0946b722-1c8f-4d60-8bb6-ef0d47769dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hud\GameHud">
+      <UniqueIdentifier>{2bdf771f-8063-48a7-918c-6a8afae96f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hud\FlashbackHud">
+      <UniqueIdentifier>{05f763d0-b848-415e-98e0-a72ce6781850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hud\GameHud">
+      <UniqueIdentifier>{d8582eb2-8495-4ad3-b906-69a5f9dff977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{13fb57f0-ea44-48d1-b9d5-c5b3e9d46ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{bd436c60-7c22-464b-9aed-64939b6266e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Source Files\ResourceManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TileObject.cpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyController.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PickupObject.cpp">
+      <Filter>Source Files\Pickup</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashbackController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashbackBarObject.cpp">
+      <Filter>Source Files\Hud\FlashbackHud</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashbackBarSegementObject.cpp">
+      <Filter>Source Files\Hud\FlashbackHud</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashbackHud.cpp">
+      <Filter>Source Files\Hud\FlashbackHud</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashbackIconObject.cpp">
+      <Filter>Source Files\Hud\FlashbackHud</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHud.cpp">
+      <Filter>Source Files\Hud\GameHud</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLivesIcon.cpp">
+      <Filter>Source Files\Hud\GameHud</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Header Files\ResourceManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TileObject.h">
+      <Filter>Header Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyController.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupObject.h">
+      <Filter>Header Files\Pickup</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashbackController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashbackBarObject.h">
+      <Filter>Header Files\Hud\FlashbackHud</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashbackBarSegementObject.h">
+      <Filter>Header Files\Hud\FlashbackHud</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashbackHud.h">
+      <Filter>Header Files\Hud\FlashbackHud</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashbackIconObject.h">
+      <Filter>Header Files\Hud\FlashbackHud</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHud.h">
+      <Filter>Header Files\Hud\GameHud</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLivesIcon.h">
+      <Filter>Header Files\Hud\GameHud</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Images\Player.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Data\Images\Enemy.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Data\Levels\test.txt">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="Data\Images\TileSheet.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Data\Images\Weapons.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Data\Images\Pickups.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Data\Images\Projectiles.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="Data\Images\Hud.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+  </ItemGroup>
+</Project>
